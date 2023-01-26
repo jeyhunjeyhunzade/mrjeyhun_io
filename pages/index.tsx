@@ -1,13 +1,19 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Link from 'next/link';
+import { Text } from '@chakra-ui/react';
+
+import Layout from 'components/Layout';
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js develop</h1>
-    <p>
-      <Link href="/about">About</Link>
-    </p>
-  </Layout>
-)
+    //TODO: add type system to theme
+    <Layout title="Home | Next.js + TypeScript Example">
+        <Text sx={{ color: 'yellow.500' }}>Hey, I am J</Text>
+        <p>
+            <Link href="/about">
+                Contrary to popular belief, Lorem Ipsum is from 45 BC, making it over 2000 years old. Richard
+                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the{' '}
+            </Link>
+        </p>
+    </Layout>
+);
 
-export default IndexPage
+export default IndexPage;
