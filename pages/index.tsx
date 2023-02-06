@@ -10,7 +10,14 @@ const IndexPage = () => (
         <p>
             <Link href="/about">
                 Contrary to popular belief, Lorem Ipsum is from 45 BC, making it over 2000 years old. Richard
-                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the{' '}
+                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the McClintock, a
+                Latin professor at Hampden-Sydney College in Virginia, looked up one of the McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the McClintock, a Latin professor at
+                Hampden-Sydney College in Virginia, looked up one of the McClintock, a Latin professor at Hampden-Sydney
+                College in Virginia, looked up one of the McClintock, a Latin professor at Hampden-Sydney College in
+                Virginia, looked up one of the McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                looked up one of the McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one
+                of the{' '}
             </Link>
         </p>
     </Layout>

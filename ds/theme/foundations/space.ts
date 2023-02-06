@@ -15,6 +15,7 @@ const space = {
     14: '5.6rem',
     16: '6.4rem',
     20: '8rem',
+    28: '11.25rem'
 };
   
 export type Space = typeof space;
